@@ -105,7 +105,8 @@ class MatrixCard extends HTMLElement {
   _startAnimation() {
     this._stopAnimation();
 
-    const speed = Math.max(0.2, Number(this._config.speed) || 1);
+    const speedSetting = Math.max(0.2, Number(this._config.speed) || 1);
+    const speed = speedSetting * 0.25;
     const trailAlpha = Math.min(1, Math.max(0.01, Number(this._config.trail_alpha) || 0.15));
     const chars = (this._config.characters || "01").split("");
     const fontSize = Math.max(8, Number(this._config.font_size) || 16);

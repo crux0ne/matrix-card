@@ -44,7 +44,7 @@ characters: "01アイウエオ"
 ## Options
 
 - `height` (number): Card height in px. Default: `220`
-- `speed` (number): Drop speed multiplier. Default: `1`
+- `speed` (number): Drop speed multiplier. `1` equals 25% base speed; higher values scale linearly. Default: `1`
 - `font_size` (number): Font size in px. Default: `16`
 - `color` (string): Character color. Default: `#03a9f4`
 - `background_color` (string): Background fade color. Default: `#00131f`
