@@ -1,11 +1,11 @@
-# Matrix Blue Card
+# Matrix Card
 
-A custom Lovelace card for Home Assistant that renders a Matrix-style code rain animation in a blue color theme.
+A custom Lovelace card for Home Assistant that renders a Matrix-style code rain animation with configurable colors.
 
 ## Features
 
 - Matrix animation optimized for Home Assistant dashboards
-- Blue default theme (HA-style)
+- Configurable color theme (default is HA blue)
 - Configurable speed, colors, font size and height
 - HACS compatible
 
@@ -17,21 +17,21 @@ A custom Lovelace card for Home Assistant that renders a Matrix-style code rain 
 2. In Home Assistant, open HACS.
 3. Go to Frontend -> menu (3 dots) -> Custom repositories.
 4. Add your repository URL and select category `Dashboard`.
-5. Install `Matrix Blue Card`.
+5. Install `Matrix Card`.
 6. Restart Home Assistant.
 
 ### Manual
 
-1. Copy `matrix-blue-card.js` to `<config>/www/`.
+1. Copy `matrix-card.js` to `<config>/www/`.
 2. Add resource in Home Assistant:
-   - URL: `/local/matrix-blue-card.js`
+   - URL: `/local/matrix-card.js`
    - Type: `module`
 3. Restart Home Assistant.
 
 ## Lovelace usage
 
 ```yaml
-type: custom:matrix-blue-card
+type: custom:matrix-card
 height: 240
 speed: 1.2
 font_size: 16

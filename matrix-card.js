@@ -1,4 +1,4 @@
-class MatrixBlueCard extends HTMLElement {
+class MatrixCard extends HTMLElement {
   static getStubConfig() {
     return {
       speed: 1,
@@ -168,11 +168,11 @@ class MatrixBlueCard extends HTMLElement {
   }
 }
 
-customElements.define("matrix-blue-card", MatrixBlueCard);
+customElements.define("matrix-card", MatrixCard);
 
 window.customCards = window.customCards || [];
 window.customCards.push({
-  type: "matrix-blue-card",
-  name: "Matrix Blue Card",
-  description: "Matrix style code rain animation in Home Assistant blue",
+  type: "matrix-card",
+  name: "Matrix Card",
+  description: "Matrix style code rain animation for Home Assistant",
 });
