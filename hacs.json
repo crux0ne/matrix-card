@@ -1,0 +1,7 @@
+{
+  "name": "Matrix Blue Card",
+  "content_in_root": true,
+  "filename": "matrix-blue-card.js",
+  "homeassistant": "2023.1.0",
+  "render_readme": true
+}
