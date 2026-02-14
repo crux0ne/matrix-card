@@ -9,10 +9,6 @@ class MatrixCard extends HTMLElement {
     };
   }
 
-  static getConfigElement() {
-    return document.createElement("hui-error-card");
-  }
-
   setConfig(config) {
     if (!this._card) {
       this._renderCard();
